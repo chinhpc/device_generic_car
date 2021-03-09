@@ -15,6 +15,7 @@
 
 $(call inherit-product, device/generic/car/common/car.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_x86_64.mk)
+$(call inherit-product, vendor/chinhpc/gpio/products/sample_addon.mk)
 
 PRODUCT_NAME := aosp_car_x86_64
 PRODUCT_DEVICE := generic_x86_64
